@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clona o repositório do GitHub
-                git 'https://github.com/seu-usuario/seu-repositorio.git'
+                git 'https://github.com/fatimacruz2307/conversao-temperatura.git'
             }
         }
         stage('Install Dependencies') {
